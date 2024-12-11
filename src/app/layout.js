@@ -23,11 +23,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <>
-        <h1>This is nev</h1>
-        {children}
-
-        </>
+        <div className="w-full h-full xl:container mx-auto">
+          {children}
+        </div>
       </body>
     </html>
   );
